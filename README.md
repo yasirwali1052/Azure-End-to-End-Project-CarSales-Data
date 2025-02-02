@@ -54,13 +54,7 @@ This pipeline manages incremental data loading into the Bronze container
 To run this project, follow the steps outlined below. Ensure you meet the prerequisites and have the necessary permissions and configurations set up in your Azure environment.
 
 ##  Prerequisites
-1 :Azure Subscription: You need an active Azure subscription to use Azure services such as Azure Data Factory, Azure Databricks, and Azure Data Lake Gen 2.
-2: Azure Data Factory (ADF): Basic understanding of ADF to manage and execute pipelines.
-3: Azure Databricks Workspace: A Databricks workspace to run notebooks and workflows.
-4: GitHub Account: For data ingestion from GitHub (if using the raw data source).
-5: Azure CLI: Installed and configured for managing Azure resources (optional for advanced users).
-6: Azure SQL Database: For storing and processing raw data.
-7: Python (Optional): For additional transformations and scripts in Databricks if needed
+To set up this project, you'll need an **Azure subscription** for services like **Data Factory, Databricks, and Data Lake Gen2**. A **Databricks workspace** is required for running notebooks, along with **Azure Data Factory (ADF)** for managing pipelines. **Azure SQL Database** stores raw data, while **Azure CLI** (optional) helps manage resources. A **GitHub account** may be needed for data ingestion, and **Python** can be used for additional transformations in Databricks.
 
 # Steps to Run the Project
 ## Set Up Azure Data Factory (ADF):
