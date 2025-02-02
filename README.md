@@ -36,3 +36,13 @@ Transformed data is stored in Silver and Gold containers.
 ## Star Schema Design and Workflow Execution:
 The Dimension Tables and Fact Table are created using Azure Databricks workflow.
 SCD Type-1 is implemented for handling updates to dimension tables.
+
+# Pipelines Details
+## Pipeline1: Data Ingestion
+This pipeline moves raw data from GitHub into Azure SQL Database
+![WhatsApp Image 2025-02-02 at 23 22 34_a32558fd](https://github.com/user-attachments/assets/7bd26e73-bd7d-48d2-b090-013ffc4da410)
+
+# Pipeline 2: Incremental Loading
+This pipeline manages incremental data loading into the Bronze container
+![WhatsApp Image 2025-01-29 at 23 48 00_cdea40bd](https://github.com/user-attachments/assets/57dabef7-b66e-4c63-a369-31f116533489)
+
